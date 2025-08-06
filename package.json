@@ -1,16 +1,18 @@
 {
   "name": "blakedaniels",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "homepage": "https://bdaniels013.github.io/blakedaniels",
-  "scripts": {
-    "build": "react-scripts build"  // Assume Create React App; change if using Vite/etc.
-  },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-    // Add any other dependencies from your code, e.g., "lucide-react": "^0.1.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.268.0"
   },
   "devDependencies": {
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
